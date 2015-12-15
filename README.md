@@ -1,6 +1,8 @@
 See this Wikipedia entry: http://en.wikipedia.org/wiki/Matrix_chain_multiplication
 
-$ java MatrixChain 5 6 7 3 2 9 2
+    $ java MatrixChain 5 6 7 3 2 9 2
+
+```
 A1: 5x6
 A2: 6x7
 A3: 7x3
@@ -49,3 +51,4 @@ A6: 9x2
 (((A1,A2),(A3,(A4,A5))),A6)=858
 ((A1,(A2,((A3,A4),A5))),A6)=906
 ((A1,(A2,(A3,(A4,A5)))),A6)=981
+```
